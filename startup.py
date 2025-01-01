@@ -6,7 +6,7 @@ import polars as pl
 from rich import pretty, traceback, print as rprint
 from rich import inspect as ins
 
-from app import *
+import app
 
 pretty.install()
 traceback.install(show_locals=False)
