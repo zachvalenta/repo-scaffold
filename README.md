@@ -15,11 +15,12 @@ $ make
 🚀  MAIN
 
 run:       run app
+repl:      start REPL
 
 📦 DEPENDENCIES
 
 env:        show environment info
-deps:       list prod dependencieso
+deps:       list prod dependencies
 
 ======================================================================
 ```
