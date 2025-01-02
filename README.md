@@ -1,6 +1,10 @@
 # 👋 TLDR
 
-This is a tool to:
+This is a tool I use to scaffold repos.
+
+# ☑️  TODO
+
+port `startup.py` to https://github.com/igrek51/wat
 
 # 🎛️ USAGE
 
