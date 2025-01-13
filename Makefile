@@ -1,3 +1,5 @@
+.PHONY: repl
+
 help:
 	@echo
 	@echo "======================================================================"
@@ -23,7 +25,7 @@ run:
 	poetry run python app.py
 
 repl:
-	export PYTHONSTARTUP='./startup.py' && ipython
+	poetry run ipython
 
 #
 # 📦 DEPENDENCIES
@@ -33,4 +35,4 @@ env:
 	poetry run poetry env info
 
 deps:
-	poetry run poetry show --tree --no-dev
+	poetry run poetry show --tree --only main

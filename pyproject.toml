@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+ipython = "^8.31.0"
+loguru = "^0.7.3"
+rich = "^13.9.4"
+catppuccin = "^2.3.4"
 
 
 [build-system]
