@@ -3,7 +3,6 @@
 help:
 	@echo
 	@echo "======================================================================"
-	@echo
 	@echo "🚀  MAIN"
 	@echo
 	@echo "run:       run app"
@@ -13,7 +12,6 @@ help:
 	@echo
 	@echo "env:        show environment info"
 	@echo "deps:       list prod dependencies"
-	@echo
 	@echo "======================================================================"
 	@echo
 
